@@ -5,24 +5,36 @@ output:
 header-includes:
   - \usepackage[margin=1in]{geometry}
   - \setlength{\parskip}{5pt}
-layout: cv
+  - \usepackage{changepage}
+  - \newcommand{\sectionline}{\vspace{-1.4em}\noindent\hrulefill\vspace{0.8em}}
 ---
 
+```{r setup, include=FALSE}
+# Définir ta date de naissance
+dob <- as.Date("1998-01-18")
+# Date actuelle
+today <- Sys.Date()
 
+# Calcul de l'âge en années
+age <- as.numeric(format(today, "%Y")) - as.numeric(format(dob, "%Y"))
+# Corriger si l'anniversaire n'est pas encore passé cette année
+ifelse(format(today, "%m%d") < format(dob, "%m%d"), age <- age - 1, age <- age)
+```
 
-# Boris Leroy
-Maitre de Conférences, Muséum National d'Histoire Naturelle
+# Curriculum Vitae - FRATTINI Baptiste
+Doctorant, Muséum National d'Histoire Naturelle<br/>
 
-Biology of Aquatic Organisms and Ecosystems<br/>
-43 rue Cuvier, CP 26<br/>
-75005 Paris, France<br/>
+Né le 18/01/1998 (`r age` ans)<br/>
 
-[borisleroy.com](https://borisleroy.com) - 
-[lab page](https://borea.mnhn.fr/fr/users/boris-leroy) <br/>  
-[GitHub: Farewe](https://github.com/farewe) - 
-[ORCID: 0000-0002-7686-4302](https://orcid.org/0000-0002-7686-4302) - 
-[RG: Boris_Leroy](https://www.researchgate.net/profile/Boris_Leroy) - 
-[\@BLeroyEcology](https://twitter.com/BLeroyEcology)
+UMR BOrEA : Biologie des Organismes et Ecosystèmes Aquatiques, 43 rue Cuvier, CP 26, 75005 Paris, France.
+
+\href{mailto:baptiste.frattini@mnhn.fr}{baptiste.frattini@edu.mnhn.fr}<br/>
+
+[LinkedIn](https://www.linkedin.com/in/baptiste-frattini-908723333/) - 
+[Profil BOrEA](https://borea.mnhn.fr/fr/users/baptiste-frattini) - 
+[GitHub Page](https://github.com/BaptisteFrattini) - 
+[ORCID](https://orcid.org/0009-0007-1297-117X) - 
+[ResearchGate](https://www.researchgate.net/profile/Baptiste-Frattini?ev=hdr_xprf) <br/>
 
 ```{r echo=FALSE, results="hide", message=FALSE, warning=FALSE}
 library(scholar)
@@ -32,190 +44,137 @@ gs <- get_profile(id)
 
 ```
 
-*My research focuses on global biogeographical patterns of aquatic biodiversity (marine and freshwater) and their underlying direct and indirect drivers. I investigate with various macroecological and biogeographical methods how global changes alter the natural distribution of biodiversity. My main research topics are: biogeography, macroecology, invasion biology; with a special emphasis on the development of methods and facilitating access to these methods with open-source software. *
+*Mes recherches de doctorat portent sur les patrons de diversité de la faune sessile cryptique des récifs coralliens dans le sud-ouest de l’océan Indien. Je m’intéresse plus particulièrement aux processus écologiques qui déterminent la structure des communautés à différentes échelles spatiales et temporelles, à l’aide de la photo-analyse de mini-récifs ARMS. Je m’appuie principalement sur la mesure de la diversité bêta pour mieux comprendre le fonctionnement des communautés et leurs réponses aux variations des paramètres environnementaux. Mes travaux visent à fournir des éléments clés pour identifier les zones à haute valeur écologique et orienter les efforts de conservation. En tant que plongeur professionnel et photographe naturaliste, je possède également des compétences de terrain ainsi que des connaissances naturalistes sur un ensemble de groupes d’invertébrés marins.*
 
-## Education & experience
+## Formation
+\sectionline
 
-`2014-present`
-**Maître de conférences (lecturer)**, *Lab. Biology of Aquatic Organisms & Ecosystems, Muséum national d'Histoire Naturelle*, Paris
 
-`2014`
-**Post-doctoral fellow**, *UMR 8079 Ecology Systematics & Evolution, University of Paris South XI*, Orsay
+`2022-present`
+**Formations doctorales**, 
+*"Dessin scientifique en biologie marine"*, MNHN – Station marine de Concarneau <br/>
+*"Porifera taxonomic workshop - DeepSeaTax 2024"*, ISYEB – MNHN Paris <br/>
+*"Bonnes pratiques pour une recherche reproductible en écologie numérique"*, CESAB – FRB Montpellier <br/>
 
-`2013`
-**Post-doctoral fellow**, *Lab. Biodiversity & Territory Management, University of Rennes 1*, Rennes
+`2019-2021`
+**Master Biodiversité, Écologie, Évolution**, *Parcours Biodiversité et écosystèmes tropicaux aquatiques, littoraux et insulaires*, Université de La Réunion, Saint Denis
 
-`2012`
-**Ph.D., Life Sciences**, *Muséum national d'histoire naturelle/Université de Rennes 1*, Rennes
-
-
-## Publications
-
-*[Full Publication list  available by clicking here](https://farewe.github.io/markdown-cv/publications.html).*
-
-### Journal articles
-```{r include=FALSE}
-source("scripts/count_author_position.R")
-pubs <- read_publications("publications.md")
-exp <- read_expertise("publications.md")
-positions <- count_author_positions(pubs, "\\*\\*Leroy B\\*\\*")
-```
-
-`r length(pubs)` published peer-reviewed articles. h-index: `r gs$h_index`; i10-index: `r gs$i10_index`.
-
-Number of papers as 1st author: `r positions$first_author`, 2nd author: `r positions$second_author`, last author: `r positions$last_author`.
-
-*Selected publications:*
-
-Carneiro L, **Leroy B**, Capinha C, Bradshaw CJA, Bertolino S, Catford JA, Camacho-Cervantes M, Bojko J, Klippel G, Kumschick S,  Pinchera-Doñoso D, Tonkin JD, Fath BD, South J, Manfrini E, Dallas T, Courchamp F. **In Press.** Typology of the ecological impacts of biological invasions. *Trends in Ecology & Evolution* 
-
-**Leroy B**, Bellard C, Dias MS, Hugueny B, Jézéquel C, Leprieur F, Oberdorff T, Robuchon M, Tedesco PA. 2023. Major shifts in biogeographic regions of freshwater fishes as evidence of the Anthropocene epoch. *Science Advances* [10.1126/sciadv.adi5502](https://doi.org/10.1126/sciadv.adi5502) --- [HAL](https://hal.science/BOREA/hal-04311267v1)
-
-Ramiro-Sánchez B, Martin A, **Leroy B**. 2023. The epitome of data paucity: Deep-sea habitats of the Southern Indian Ocean. *Biological Conservation* 283:110096 [doi](https://doi.org/10.1016/j.biocon.2023.110096) --- [HAL](https://hal.science/hal-04554845)
-
-
-**Leroy B**, Kramer AV, Vaissière AC, Kourantidou M, Courchamp F, Diagne C. 2022. Analysing global economic costs of invasive alien species with the invacost R package. *Methods in Ecology & Evolution* 13:1930-1937 [10.1111/2041-210X.13929](https://doi.org/10.1111/2041-210X.13929) ---  [HAL](https://hal.archives-ouvertes.fr/hal-03427555)
-
-### Software
-
-```{r include=FALSE}
-source("scripts/citation_count.R")
-library(dplyr)
-info <- available.packages(contriburl = "https://cran.rstudio.com/src/contrib")
-
-
-
-softs <- read_software("publications.md")
-
-# Split the raw text into individual entries based on blank lines
-entries <- unlist(str_split(softs, "\\n\\s*\\n"))
-
-# Apply the parsing function to each entry and combine into a data.frame
-software_list <- do.call(rbind, lapply(entries, parse_entry))
-
-software_list <- software_list %>%
-  rowwise() %>%
-  mutate(
-    # citations_software = get_google_scholar_citation(software_url),
-    citations_peer_review = fetch_semantic_scholar_citations(doi_peer_review),
-    total_citations = 
-      # citations_software + 
-      citations_peer_review
-  ) %>%
-  ungroup()
-
-total_dois <- sum(sapply(software_list$doi_peer_review, function(x) {
-  if (is.na(x) || x == "") 0 else length(unlist(strsplit(x, ";")))
-}))
-
-```
-
-`r nrow(software_list)` software published with 
-`r total_dois` peer-reviewed articles, totaling over 
-`r sum(software_list$total_citations, na.rm = TRUE)` citations.
-
-## Expertise
-I work at the science-policy interface as part of my expertise mission from the MNHN.
-
-`2024` **Consultant**, *DREAL Corse*, Predictive mapping of species subject to national action plans
-
-`2020-2023` **Consultant**, *Southern Indian Ocean Fisheries Agreement*, Vulnerable Marine Ecosystems 
-
-`2021` **Consultant**, *Marine protected areas in the French Antarctic and Southern areas*
-
-`2020-2023`
-**Contributing Author**, *Intergovernmental Platform on Biodiversity & Ecosystem Services*, Invasive Alien Species Assessment
-
-`2015-2018`
-**Lead Author**, *Intergovernmental Platform on Biodiversity & Ecosystem Services*, Europe and Central Asia Assessment
-
-
-**`r length(exp)`** expertise reports published. Selected recent expertise reports:
-
-`2024`
-
-**Leroy B**. (2024). Cartographie prédictive des habitats des groupes d’espèces ciblées
-par les Plans Nationaux d’Actions en Corse. Rapport pour la DREAL de Corse.
-Zenodo. 110 pp. https://doi.org/10.5281/zenodo.11067678
-
-`2023`
-
-Ramiro-Sánchez B., Devillers R. and **Leroy B**. (2023). Systematic conservation planning in the SIOFA area (Project PAE2021-01). Muséum National d’Histoire Naturelle, France. 56pp. [Note: report is confidential]
-
-Ramiro-Sanchez B. and **Leroy B**. (2023). Identifying significant adverse impacts on vulnerable marine ecosystems: a review of measures and applicability to SIOFA (Project PAE2021-01). Muséum National d’Histoire Naturelle, France. 12pp. [Note: report is confidential]
-
-`2022`
-
-Ramiro-Sánchez B, **Leroy B**. 2022. *SIOFA bioregionalisation and VME project - Final report* Southern Indian Ocean Fisheries Agreement consultancy report. 111 pp. [link](https://siofa.org/sites/default/files/files/VMEMapping_FullReport.pdf)
-
-## Research funding
-
-8 projects funded as PI or co-PI totaling around 1M€. Recent projects:
-
-`2023-2026` **3-year research project**, PPR Océan & Climat, Developing bioindicators for rocky foreshores: citizen sciences, a mechanism for interaction between science and society. Co-PI with Eric Feunteun & Florian Charvolin. 110 000€
-
-`2023-2025` **2-year research project**, *Agence Nationale pour la Recherche*,
-ESPOIRS - Etude de la réponse des estrans aux changements globaux par les Sciences
-Participatives : biOindication à l’InteRface sciences Société. 250 000€. 
-
-`2021-2023` **1.5-year research project**, *Southern Indian Ocean
-Fisheries Agreement*, Indian Ocean, 60 000€. <br/> Bioregionalisation and 
-Management of Vulnerable Marine Ecosystems in the Indian
-Ocean.
-
-`2021` **Expertise project**, *Planification de l'extension de la réserve Naturelle de Saint Paul et Amsterdam*, Terres Australes et Antarctiques Françaises, ~20k€.
-
-`2020-2022`
-**2-year research project**, *Southern Indian Ocean Fisheries Agreement*, Indian Ocean, 96 000€. <br/> 
-Mapping the biogeography of Vulnerable Marine Ecosystems in the Indian Ocean.
-
-`2017–2019`
-**2-year research project Labex**, *Muséum National d'Histoire Naturelle*, France, 100 000€. <br/>
-Co-PI with Sarah Samadi & Maud Mouchet.<br/>
-Valuing natural history collections and naturalist expeditions for the conservation and management of deep sea habitats: the Tropical Deep Sea Benthos program.
-
-`2017–2019`
-**2-year research project Labex**, *Muséum National d'Histoire Naturelle*, France, 100 000€.<br/> Co-PI with Sandrine Pavoine.<br/>
-New indicators for biodiversity conservation based on phylogenetic originality and extinction risks : HEDGE and LEDGE species.
-
-## Teaching
-
-Teaching 70-100h per year for masters and doctoral schools at the Muséum, Sorbonne Université, Université de Paris Saclay, and Ecole Normale Supérieure. 
-
-## Supervision & evaluation
-
-6 postdoctoral researchers, 3 PhD students, 2 engineers and 15 master students supervised
-
-Member of 12 PhD committees
-
-Examiner for 5 PhD defenses
-
-## Professional service
-
-Referee for over 25 journals
-
-`2024-present`
-**Senior Editor**. *Diversity & Distributions*
-
-`2019-2024`
-**Associate Editor**. *Diversity & Distributions*
-
-## Academic service
-
-`2025-onwards`
-**Co-leader**, *group AQUATREND, __Quantitative analysis of trends in biodiversity in response to global change__, Lab. Biology of Aquatic Organisms & Ecosystems, Muséum national d'Histoire Naturelle*, Paris, France.
-
+`2019`
+**UE Expertise faune**, *Enseignement d’été niveau Master en taxonomie et biologie marine.*, Sorbonne Université, Station biologique de Roscoff
 
 `2017-2019`
-**Leader**, *group Biodiversity & Macroecology, Lab. Biology of Aquatic Organisms & Ecosystems, Muséum national d'Histoire Naturelle*, Paris, France.
+**Licence de Biologie**, *Biologie des organismes : Écologie, Éthologie, Environnement.*, Université de Rennes 1
 
-## Outreach
+`2016`
+**Baccalaureat scientifique**, *Sciences de la vie et de la terre, spécialisation informatique et systèmes numériques*, Lycée Felix Le Dantec, Lannion
 
-Numerous outreach/press events around global change impacts on biodiversity
-(AFP, The Conversation, France Inter, France Culture, etc.)
+## Experiences professionnelles
+\sectionline
 
+
+`2022-present`
+**Thèse de doctorat - ED 227 : Sci. de l'Homme et de la Nature**, 
+*"Communautés sessiles des mini-récifs artificiels (ARMS) sur les pentes externes des récifs coralliens des Mascareignes : comparaison entre milieux récifal peu profond et mésophotique."*, UMR BOrEA : Biologie des Organismes et Ecosystèmes Aquatiques – MNHN, Paris
+
+`2022`
+**Auto-entrepreneuriat**, *Prestation de service : Analyses du benthos via Coral Point Count, tri sur photos en morphoespèces et espèces, et traitement des données*, Museum National d'Histoire Naturelle et Université de La Réunion
+
+`2021`
+**Stage de Master 2 - Projet CALIBIOME**, *"Communautés sessiles des mini-récifs ARMS : patrons spatiaux et forçages environnementaux."*, Laboratoire ENTROPIE, Université de La Réunion
+
+`2020`
+**Stage de Master 1**, *"Communautés sessiles des mini-récifs ARMS : patrons spatiaux et forçages environnementaux."*, Laboratoire ENTROPIE, Université de La Réunion
+
+`2019`
+**Stage de Licence**, *Travail de laboratoire et de terrain*,  Laboratoire Ressources Halieutiques & Environnement, IFREMER, Port-en-Bessin
+
+## Experiences associatives
+\sectionline
+
+
+`2020`
+**Association des naturalistes de Mayotte**, *Comptages des pontes de tortues vertes Chelonia mydas et réhabilitation de la végétation des plages de ponte à Saziley (bénévolat)*,  Parc Marin de Saziley
+
+`2019`
+**Ligue pour la Protection des Oiseaux**, *Comptages des fous de Bassan à l’île Rouzic et saisie des données (bénévolat)*, Réserve Naturelle des Sept-Îles
+
+## Enseignement
+\sectionline
+
+
+`2024`
+**Contrat d'enseignement vacataire**, *Contrat de 32h - 16h d'enseignement dans l'UE "Ecologie et Environnement", 16h d'enseignement dans l'UE "Embryologie"*, Licence 2 Science de la vie, Université de La Réunion
+
+\begin{adjustwidth}{2em}{0pt}
+UE Embryologie : Travaux Pratiques - Dissection d'un oeuf de poule
+
+UE Ecologie et Environnement : Travaux dirigés - Création d'un poster scientifique, Jeux serieux sur les enjeux environnementaux de l'île de La Réunion
+
+Surveillance d'examens et corrections de copies
+\end{adjustwidth}
+
+`2021-2022`
+**Enseignant contractuel**, *Contrat de 16h d’enseignement par semaine - UE Enseignement scientifique, classes de 1ère et Terminale.*, Lycée Felix Le Dantec, Lannion
+
+\begin{adjustwidth}{2em}{0pt}
+Conception de maquettes cohérentes avec l'équipe pédagogique
+
+Participation aux conseils de classes
+\end{adjustwidth}
+
+## Encadrement
+\sectionline
+
+`2024`
+**Encadrement d'une étudiante en stage de Master 2 BioSciences**, ENS Lyon.
+
+\begin{adjustwidth}{2em}{0pt}
+Aide au raisonnement scientifique et aux analyses multivariées sur R
+\end{adjustwidth}
+
+`2024`
+**Encadrement d'un étudiant en stage de Master 1 BEST**, Université de La Réunion
+\begin{adjustwidth}{2em}{0pt}
+Aide à la rédaction, initiation à R, analyses uni- et multivariées
+
+Participation en tant que jury aux oraux
+\end{adjustwidth}
+## Productions scientifiques
+\sectionline
+
+
+### Articles de journaux
+
+**Frattini B**, Bruggemann J, Goberville E, Couëdel M, Bruggemann F, Guillaume MMM (2025) Seasonal colonisation and ecological succession shape coral reef sessile cryptobenthic communities in Autonomous Reef Monitoring Structures. *Scientific Reports*. In Press
+
+**Frattini B**, Bruggemann J, Goberville E, Couëdel M, Bruggemann F, Guillaume M (2025) Deterministic and stochastic processes drive sessile cryptobenthic community composition on coral reefs at different spatial scales. *Marine Ecology Progress Series*. [DOI](https://doi.org/10.3354/meps14852)
+
+Couëdel M, Dettai A, Guillaume MMM, Bonillo C, **Frattini B**, Bruggemann JH (2024) Settlement patterns and temporal successions of coral reef cryptic communities affect diversity assessments using autonomous reef monitoring structures (ARMS). *Scientific Reports* 14:27061. [DOI](https://doi.org/10.1038/s41598-024-76834-8)
+
+Couëdel M, Dettai A, Guillaume MMM, Bruggemann F, Bureau S, **Frattini B**, Verde Ferreira A, Azie J, Bruggemann JH (2023) New insights into the diversity of cryptobenthic Cirripectes blennies in the Mascarene Archipelago sampled using Autonomous Reef Monitoring Structures (ARMS). *Ecology and Evolution* 13:e9850. [DOI](https://doi.org/10.1002/ece3.9850)
+
+### Communications orales
+
+**Frattini B**, Bruggemann J, Goberville E, Couëdel M, Bruggemann F, Guillaume M "Sessile cryptobenthic communities on Autonomous Reef Monitoring Structures (ARMS): multi-scale spatial patterns and environmental forcing on the outer slopes of Reunion Island's coral reefs". European Coral Reef Symposium 2024 (2-5/07/2024), Naples.
+
+**Frattini B**, Bruggemann J, Goberville E, Couëdel M, Bruggemann F, Guillaume M "Communautés sessiles des mini-récifs artificiels (ARMS) sur les pentes externes des récifs coralliens de l’île de La Réunion : patrons spatiaux multi-échelles et possibles forçages environnementaux.", Congrès des Jeunes Chercheurs du Museum, (17-19/04/2024), Paris.
+
+**Frattini B**, Bruggemann J, Goberville E, Couëdel M, Bruggemann F, Guillaume M "Communautés sessiles des mini-récifs artificiels (ARMS) sur les pentes externes des récifs coralliens de l’île de La Réunion : patrons spatiaux multi-échelles et possibles forçages environnementaux.", Journées scientifiques de l’UMR BOrEA, (24-27/05/2023), Paris.
+
+## Certifications
+\sectionline
+
+
+Certificat d’Aptitude à l’Hyperbarie classe 1, mention B (C.A.H. 1B)
+
+Diplôme de premiers secours en équipe (PSE.1)
+
+Permis côtier et Permis B<br/>
+\newline
 
 ```{r echo=FALSE, results="hide", message=FALSE, warning=FALSE} 
-Sys.setlocale("LC_ALL","English")
+Sys.setlocale("LC_ALL","French")
 ```
-<br/>Last updated: `r zoo::Sys.yearmon()`<br/><br/>
+\begin{flushright}
+Dernière mise à jour de ce CV: `r zoo::Sys.yearmon()`
+\end{flushright}
