@@ -32,9 +32,9 @@ UMR BOrEA : Biologie des Organismes et Ecosystèmes Aquatiques, 43 rue Cuvier, C
 
 [LinkedIn](https://www.linkedin.com/in/baptiste-frattini-908723333/) - 
 [Profil BOrEA](https://borea.mnhn.fr/fr/users/baptiste-frattini) - 
-[GitHub Page](https://github.com/BaptisteFrattini) - 
+[GitHub](https://github.com/BaptisteFrattini) - 
 [ORCID](https://orcid.org/0009-0007-1297-117X) - 
-[ResearchGate](https://www.researchgate.net/profile/Baptiste-Frattini?ev=hdr_xprf) <br/>
+[ResearchGate](https://www.researchgate.net/profile/Baptiste-Frattini?ev=hdr_xprf)<br/>
 
 ```{r echo=FALSE, results="hide", message=FALSE, warning=FALSE}
 library(scholar)
@@ -44,18 +44,17 @@ gs <- get_profile(id)
 
 ```
 
-*Mes recherches de doctorat portent sur les patrons de diversité de la faune sessile cryptique des récifs coralliens dans le sud-ouest de l’océan Indien. Je m’intéresse plus particulièrement aux processus écologiques qui déterminent la structure des communautés à différentes échelles spatiales et temporelles, à l’aide de la photo-analyse de mini-récifs ARMS. Je m’appuie principalement sur la mesure de la diversité bêta pour mieux comprendre le fonctionnement des communautés et leurs réponses aux variations des paramètres environnementaux. Mes travaux participent à l’identification des zones à forte valeur écologique et ont pour vocation de guider les actions de conservation. En tant que plongeur professionnel et photographe naturaliste, je possède également des compétences de terrain ainsi que des connaissances naturalistes sur un ensemble de groupes d’invertébrés marins.*
+*Mes recherches de doctorat portent sur les patrons de diversité de la faune sessile cryptique des récifs coralliens dans le sud-ouest de l’océan Indien. Je m’intéresse plus particulièrement aux processus écologiques qui déterminent la structure des communautés cryptiques à différentes échelles spatiales et temporelles, à l’aide de la photo-analyse de mini-récifs ARMS. Je m’appuie principalement sur la mesure de la diversité bêta pour mieux comprendre le fonctionnement des communautés et leurs réponses aux variations des paramètres environnementaux. Mes travaux visent à identifier des zones à forte valeur écologique et ont pour vocation de guider les efforts de conservation. En tant que plongeur professionnel et photographe naturaliste, je possède également des compétences de terrain ainsi que des connaissances naturalistes sur un ensemble de groupes d’invertébrés marins.*
 
 ## Formation
 \sectionline
 
 `2022-present`
-**Formations doctorales**,
-
+**Formations doctorales**:
 \begin{adjustwidth}{2em}{0pt}
-"Dessin scientifique en biologie marine", MNHN, Station marine de Concarneau  \newline
-"Porifera taxonomic workshop - DeepSeaTax", ISYEB, MNHN Paris  \newline
-"Bonnes pratiques pour une recherche reproductible en écologie numérique", CESAB, FRB Montpellier  
+- “Dessin scientifique en biologie marine”, MNHN, Station marine de Concarneau  \newline
+- “Porifera taxonomic workshop - DeepSeaTax”, ISYEB, MNHN Paris  \newline
+- “Bonnes pratiques pour une recherche reproductible en écologie numérique”, CESAB, FRB Montpellier  
 \end{adjustwidth}
 
 `2019-2021`
@@ -76,7 +75,7 @@ gs <- get_profile(id)
 
 `2022-present`
 **Thèse de doctorat - ED 227 : Sci. de l'Homme et de la Nature**. 
-"Communautés sessiles des mini-récifs artificiels (ARMS) sur les pentes externes des récifs coralliens des Mascareignes : comparaison entre milieux récifal peu profond et mésophotique", UMR BOrEA : Biologie des Organismes et Ecosystèmes Aquatiques – MNHN, Paris
+"Communautés sessiles des mini-récifs artificiels (ARMS) sur les pentes externes des récifs coralliens des Mascareignes : comparaison entre milieux récifal peu profond et mésophotique", UMR BOrEA, MNHN, Paris
 
 `2022`
 **Auto-entrepreneuriat**. Prestation de service : Analyses du benthos via Coral Point Count, tri sur photos en morphoespèces et espèces, et traitement des données, MNHN et Université de La Réunion
@@ -104,22 +103,17 @@ gs <- get_profile(id)
 
 `2024`
 **Contrat d'enseignement vacataire**, Contrat de 32h de cours en Licence 2 Science de la vie, Université de La Réunion
-
 \begin{adjustwidth}{2em}{0pt}
-UE Embryologie : Scéances de travaux pratiques de 4h - Dissection d'un oeuf de poule
-
-UE Ecologie et Environnement : Travaux dirigés de 2h - Création d'un poster scientifique, Jeux serieux sur les enjeux environnementaux de l'île de La Réunion
-
-Surveillance d'examens et corrections de copies
+- UE Embryologie : Scéances de travaux pratiques de 4h - Dissection d'un oeuf de poule \newline
+- UE Ecologie et Environnement : Travaux dirigés de 2h - Création d'un poster scientifique, Jeux serieux sur les enjeux environnementaux de l'île de La Réunion \newline
+- Surveillance d'examens et corrections de copies
 \end{adjustwidth}
 
 `2021-2022`
 **Enseignant contractuel**, Contrat de 16h d’enseignement d'SVT par semaine en classes de 1ère et Terminale, Lycée Felix Le Dantec, Lannion
-
 \begin{adjustwidth}{2em}{0pt}
-Conception de maquettes cohérentes avec l'équipe pédagogique
-
-Participation aux conseils de classes
+- Conception de maquettes cohérentes avec l'équipe pédagogique \newline
+- Participation aux conseils de classes
 \end{adjustwidth}
 
 ## Encadrement
@@ -127,17 +121,15 @@ Participation aux conseils de classes
 
 `2024`
 **Encadrement d'une étudiante en stage de Master 2 BioSciences**, Université de La Réunion
-
 \begin{adjustwidth}{2em}{0pt}
-Aide au raisonnement scientifique et aux analyses multivariées sur R
+- Aide au raisonnement scientifique et aux analyses multivariées sur R
 \end{adjustwidth}
 
 `2024`
 **Encadrement d'un étudiant en stage de Master 1 BEST**, Université de La Réunion
 \begin{adjustwidth}{2em}{0pt}
-Aide à la rédaction, initiation à R, analyses uni- et multivariées
-
-Participation en tant que jury aux oraux de stage
+- Aide à la rédaction, initiation à R, analyses uni- et multivariées \newline
+- Participation en tant que jury aux oraux de stage
 \end{adjustwidth}
 
 ## Productions scientifiques
@@ -164,10 +156,16 @@ Couëdel M, Dettai A, Guillaume MMM, Bruggemann F, Bureau S, **Frattini B**, Ver
 ## Certifications
 \sectionline
 
+`2020`
 Certificat d’Aptitude à l’Hyperbarie classe 1, mention B (C.A.H. 1B)
 
-Diplôme de premiers secours en équipe (PSE.1)
+`2020`
+Brevet National de Sécurité et de Sauvetage Aquatique (BNSSA)
 
+`2018`
+Diplôme de premiers Secours en Équipe (PSE.1)
+
+`2017`
 Permis côtier et Permis B<br/>
 \newline
 
