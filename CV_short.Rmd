@@ -22,7 +22,7 @@ ifelse(format(today, "%m%d") < format(dob, "%m%d"), age <- age - 1, age <- age)
 ```
 
 # Curriculum Vitae - FRATTINI Baptiste
-Doctorant, Muséum National d'Histoire Naturelle<br/>
+Doctorant, Muséum National d'Histoire Naturelle (MNHN)<br/>
 
 Né le 18/01/1998 (`r age` ans)<br/>
 
@@ -44,77 +44,77 @@ gs <- get_profile(id)
 
 ```
 
-*Mes recherches de doctorat portent sur les patrons de diversité de la faune sessile cryptique des récifs coralliens dans le sud-ouest de l’océan Indien. Je m’intéresse plus particulièrement aux processus écologiques qui déterminent la structure des communautés à différentes échelles spatiales et temporelles, à l’aide de la photo-analyse de mini-récifs ARMS. Je m’appuie principalement sur la mesure de la diversité bêta pour mieux comprendre le fonctionnement des communautés et leurs réponses aux variations des paramètres environnementaux. Mes travaux visent à fournir des éléments clés pour identifier les zones à haute valeur écologique et orienter les efforts de conservation. En tant que plongeur professionnel et photographe naturaliste, je possède également des compétences de terrain ainsi que des connaissances naturalistes sur un ensemble de groupes d’invertébrés marins.*
+*Mes recherches de doctorat portent sur les patrons de diversité de la faune sessile cryptique des récifs coralliens dans le sud-ouest de l’océan Indien. Je m’intéresse plus particulièrement aux processus écologiques qui déterminent la structure des communautés à différentes échelles spatiales et temporelles, à l’aide de la photo-analyse de mini-récifs ARMS. Je m’appuie principalement sur la mesure de la diversité bêta pour mieux comprendre le fonctionnement des communautés et leurs réponses aux variations des paramètres environnementaux. Mes travaux participent à l’identification des zones à forte valeur écologique et ont pour vocation de guider les actions de conservation. En tant que plongeur professionnel et photographe naturaliste, je possède également des compétences de terrain ainsi que des connaissances naturalistes sur un ensemble de groupes d’invertébrés marins.*
 
 ## Formation
 \sectionline
 
-
 `2022-present`
-**Formations doctorales**, 
-*"Dessin scientifique en biologie marine"*, MNHN – Station marine de Concarneau <br/>
-*"Porifera taxonomic workshop - DeepSeaTax 2024"*, ISYEB – MNHN Paris <br/>
-*"Bonnes pratiques pour une recherche reproductible en écologie numérique"*, CESAB – FRB Montpellier <br/>
+**Formations doctorales**,
+
+\begin{adjustwidth}{2em}{0pt}
+"Dessin scientifique en biologie marine", MNHN, Station marine de Concarneau  \newline
+"Porifera taxonomic workshop - DeepSeaTax", ISYEB, MNHN Paris  \newline
+"Bonnes pratiques pour une recherche reproductible en écologie numérique", CESAB, FRB Montpellier  
+\end{adjustwidth}
 
 `2019-2021`
-**Master Biodiversité, Écologie, Évolution**, *Parcours Biodiversité et écosystèmes tropicaux aquatiques, littoraux et insulaires*, Université de La Réunion, Saint Denis
+**Master Biodiversité, Écologie, Évolution**, Parcours Biodiversité et écosystèmes tropicaux aquatiques, littoraux et insulaires, Université de La Réunion, Saint Denis
 
 `2019`
-**UE Expertise faune**, *Enseignement d’été niveau Master en taxonomie et biologie marine.*, Sorbonne Université, Station biologique de Roscoff
+**UE Expertise faune**, Enseignement d’été niveau Master en taxonomie et biologie marine, Sorbonne Université, Station biologique de Roscoff
 
 `2017-2019`
-**Licence de Biologie**, *Biologie des organismes : Écologie, Éthologie, Environnement.*, Université de Rennes 1
+**Licence de Biologie**, Biologie des organismes : Écologie, Éthologie, Environnement, Université de Rennes 1
 
 `2016`
-**Baccalaureat scientifique**, *Sciences de la vie et de la terre, spécialisation informatique et systèmes numériques*, Lycée Felix Le Dantec, Lannion
+**Baccalaureat scientifique**, Sciences de la vie et de la terre, spécialisation informatique et systèmes numériques, Lycée Felix Le Dantec, Lannion
 
 ## Experiences professionnelles
 \sectionline
 
 
 `2022-present`
-**Thèse de doctorat - ED 227 : Sci. de l'Homme et de la Nature**, 
-*"Communautés sessiles des mini-récifs artificiels (ARMS) sur les pentes externes des récifs coralliens des Mascareignes : comparaison entre milieux récifal peu profond et mésophotique."*, UMR BOrEA : Biologie des Organismes et Ecosystèmes Aquatiques – MNHN, Paris
+**Thèse de doctorat - ED 227 : Sci. de l'Homme et de la Nature**. 
+"Communautés sessiles des mini-récifs artificiels (ARMS) sur les pentes externes des récifs coralliens des Mascareignes : comparaison entre milieux récifal peu profond et mésophotique", UMR BOrEA : Biologie des Organismes et Ecosystèmes Aquatiques – MNHN, Paris
 
 `2022`
-**Auto-entrepreneuriat**, *Prestation de service : Analyses du benthos via Coral Point Count, tri sur photos en morphoespèces et espèces, et traitement des données*, Museum National d'Histoire Naturelle et Université de La Réunion
+**Auto-entrepreneuriat**. Prestation de service : Analyses du benthos via Coral Point Count, tri sur photos en morphoespèces et espèces, et traitement des données, MNHN et Université de La Réunion
 
 `2021`
-**Stage de Master 2 - Projet CALIBIOME**, *"Communautés sessiles des mini-récifs ARMS : patrons spatiaux et forçages environnementaux."*, Laboratoire ENTROPIE, Université de La Réunion
+**Stage de Master 2**. "Communautés sessiles des mini-récifs ARMS : patrons spatiaux et forçages environnementaux", Laboratoire ENTROPIE, Université de La Réunion
 
 `2020`
-**Stage de Master 1**, *"Communautés sessiles des mini-récifs ARMS : patrons spatiaux et forçages environnementaux."*, Laboratoire ENTROPIE, Université de La Réunion
+**Stage de Master 1**, "Influence du nombre de locus dans l’analyse de la diversité génétique des holothuries vertes \textit{Stichopus chloronotus} à La Réunion", Laboratoire ENTROPIE, Université de La Réunion
 
 `2019`
-**Stage de Licence**, *Travail de laboratoire et de terrain*,  Laboratoire Ressources Halieutiques & Environnement, IFREMER, Port-en-Bessin
+**Stage de Licence**, Travail de laboratoire et de terrain,  Laboratoire Ressources Halieutiques & Environnement, IFREMER, Port-en-Bessin
 
 ## Experiences associatives
 \sectionline
 
-
 `2020`
-**Association des naturalistes de Mayotte**, *Comptages des pontes de tortues vertes Chelonia mydas et réhabilitation de la végétation des plages de ponte à Saziley (bénévolat)*,  Parc Marin de Saziley
+**Association des naturalistes de Mayotte**, Comptages des pontes de tortues vertes \textit{Chelonia mydas} et réhabilitation de la végétation des plages de ponte à Saziley (bénévolat)*,  Parc Marin de Saziley
 
 `2019`
-**Ligue pour la Protection des Oiseaux**, *Comptages des fous de Bassan à l’île Rouzic et saisie des données (bénévolat)*, Réserve Naturelle des Sept-Îles
+**Ligue pour la Protection des Oiseaux**, Comptages des fous de Bassan \textit{Morus bassanus} à l’île Rouzic et saisie des données (bénévolat), Réserve Naturelle des Sept-Îles
 
 ## Enseignement
 \sectionline
 
-
 `2024`
-**Contrat d'enseignement vacataire**, *Contrat de 32h - 16h d'enseignement dans l'UE "Ecologie et Environnement", 16h d'enseignement dans l'UE "Embryologie"*, Licence 2 Science de la vie, Université de La Réunion
+**Contrat d'enseignement vacataire**, Contrat de 32h de cours en Licence 2 Science de la vie, Université de La Réunion
 
 \begin{adjustwidth}{2em}{0pt}
-UE Embryologie : Travaux Pratiques - Dissection d'un oeuf de poule
+UE Embryologie : Scéances de travaux pratiques de 4h - Dissection d'un oeuf de poule
 
-UE Ecologie et Environnement : Travaux dirigés - Création d'un poster scientifique, Jeux serieux sur les enjeux environnementaux de l'île de La Réunion
+UE Ecologie et Environnement : Travaux dirigés de 2h - Création d'un poster scientifique, Jeux serieux sur les enjeux environnementaux de l'île de La Réunion
 
 Surveillance d'examens et corrections de copies
 \end{adjustwidth}
 
 `2021-2022`
-**Enseignant contractuel**, *Contrat de 16h d’enseignement par semaine - UE Enseignement scientifique, classes de 1ère et Terminale.*, Lycée Felix Le Dantec, Lannion
+**Enseignant contractuel**, Contrat de 16h d’enseignement d'SVT par semaine en classes de 1ère et Terminale, Lycée Felix Le Dantec, Lannion
 
 \begin{adjustwidth}{2em}{0pt}
 Conception de maquettes cohérentes avec l'équipe pédagogique
@@ -126,7 +126,7 @@ Participation aux conseils de classes
 \sectionline
 
 `2024`
-**Encadrement d'une étudiante en stage de Master 2 BioSciences**, ENS Lyon.
+**Encadrement d'une étudiante en stage de Master 2 BioSciences**, Université de La Réunion
 
 \begin{adjustwidth}{2em}{0pt}
 Aide au raisonnement scientifique et aux analyses multivariées sur R
@@ -137,33 +137,32 @@ Aide au raisonnement scientifique et aux analyses multivariées sur R
 \begin{adjustwidth}{2em}{0pt}
 Aide à la rédaction, initiation à R, analyses uni- et multivariées
 
-Participation en tant que jury aux oraux
+Participation en tant que jury aux oraux de stage
 \end{adjustwidth}
+
 ## Productions scientifiques
 \sectionline
 
-
 ### Articles de journaux
 
-**Frattini B**, Bruggemann J, Goberville E, Couëdel M, Bruggemann F, Guillaume MMM (2025) Seasonal colonisation and ecological succession shape coral reef sessile cryptobenthic communities in Autonomous Reef Monitoring Structures. *Scientific Reports*. In Press
+**Frattini B**, Bruggemann JH, Goberville E, Couëdel M, Bruggemann F, Guillaume MMM (2025) Seasonal colonisation and ecological succession shape coral reef sessile cryptobenthic communities in Autonomous Reef Monitoring Structures. *Scientific Reports*. In Press
 
-**Frattini B**, Bruggemann J, Goberville E, Couëdel M, Bruggemann F, Guillaume M (2025) Deterministic and stochastic processes drive sessile cryptobenthic community composition on coral reefs at different spatial scales. *Marine Ecology Progress Series*. [DOI](https://doi.org/10.3354/meps14852)
+**Frattini B**, Bruggemann JH, Goberville E, Couëdel M, Bruggemann F, Guillaume M (2025) Deterministic and stochastic processes drive sessile cryptobenthic community composition on coral reefs at different spatial scales. *Marine Ecology Progress Series*. [DOI](https://doi.org/10.3354/meps14852)
 
 Couëdel M, Dettai A, Guillaume MMM, Bonillo C, **Frattini B**, Bruggemann JH (2024) Settlement patterns and temporal successions of coral reef cryptic communities affect diversity assessments using autonomous reef monitoring structures (ARMS). *Scientific Reports* 14:27061. [DOI](https://doi.org/10.1038/s41598-024-76834-8)
 
-Couëdel M, Dettai A, Guillaume MMM, Bruggemann F, Bureau S, **Frattini B**, Verde Ferreira A, Azie J, Bruggemann JH (2023) New insights into the diversity of cryptobenthic Cirripectes blennies in the Mascarene Archipelago sampled using Autonomous Reef Monitoring Structures (ARMS). *Ecology and Evolution* 13:e9850. [DOI](https://doi.org/10.1002/ece3.9850)
+Couëdel M, Dettai A, Guillaume MMM, Bruggemann F, Bureau S, **Frattini B**, Verde Ferreira A, Azie J, Bruggemann JH (2023) New insights into the diversity of cryptobenthic \textit{Cirripectes} blennies in the Mascarene Archipelago sampled using Autonomous Reef Monitoring Structures (ARMS). *Ecology and Evolution* 13:e9850. [DOI](https://doi.org/10.1002/ece3.9850)
 
 ### Communications orales
 
-**Frattini B**, Bruggemann J, Goberville E, Couëdel M, Bruggemann F, Guillaume M "Sessile cryptobenthic communities on Autonomous Reef Monitoring Structures (ARMS): multi-scale spatial patterns and environmental forcing on the outer slopes of Reunion Island's coral reefs". European Coral Reef Symposium 2024 (2-5/07/2024), Naples.
+**Frattini B**, Bruggemann JH, Goberville E, Couëdel M, Bruggemann F, Guillaume M "Sessile cryptobenthic communities on Autonomous Reef Monitoring Structures (ARMS): multi-scale spatial patterns and environmental forcing on the outer slopes of Reunion Island's coral reefs", European Coral Reef Symposium 2024 (2-5/07/2024), Naples.
 
-**Frattini B**, Bruggemann J, Goberville E, Couëdel M, Bruggemann F, Guillaume M "Communautés sessiles des mini-récifs artificiels (ARMS) sur les pentes externes des récifs coralliens de l’île de La Réunion : patrons spatiaux multi-échelles et possibles forçages environnementaux.", Congrès des Jeunes Chercheurs du Museum, (17-19/04/2024), Paris.
+**Frattini B**, Bruggemann JH, Goberville E, Couëdel M, Bruggemann F, Guillaume M "Communautés sessiles des mini-récifs artificiels (ARMS) sur les pentes externes des récifs coralliens de l’île de La Réunion : patrons spatiaux multi-échelles et possibles forçages environnementaux", Congrès des Jeunes Chercheurs du Museum, (17-19/04/2024), Paris.
 
-**Frattini B**, Bruggemann J, Goberville E, Couëdel M, Bruggemann F, Guillaume M "Communautés sessiles des mini-récifs artificiels (ARMS) sur les pentes externes des récifs coralliens de l’île de La Réunion : patrons spatiaux multi-échelles et possibles forçages environnementaux.", Journées scientifiques de l’UMR BOrEA, (24-27/05/2023), Paris.
+**Frattini B**, Bruggemann JH, Goberville E, Couëdel M, Bruggemann F, Guillaume M "Communautés sessiles des mini-récifs artificiels (ARMS) sur les pentes externes des récifs coralliens de l’île de La Réunion : patrons spatiaux multi-échelles et possibles forçages environnementaux", Journées scientifiques de l’UMR BOrEA, (24-27/05/2023), Paris.
 
 ## Certifications
 \sectionline
-
 
 Certificat d’Aptitude à l’Hyperbarie classe 1, mention B (C.A.H. 1B)
 
