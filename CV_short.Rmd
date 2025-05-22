@@ -52,9 +52,10 @@ gs <- get_profile(id)
 `2022-present`
 **Formations doctorales**:
 \begin{adjustwidth}{2em}{0pt}
-- “Dessin scientifique en biologie marine”, MNHN, Station marine de Concarneau  \newline
-- “Porifera taxonomic workshop - DeepSeaTax”, ISYEB, MNHN Paris  \newline
-- “Bonnes pratiques pour une recherche reproductible en écologie numérique”, CESAB, FRB Montpellier  
+- “Porifera taxonomic workshop - DeepSeaTax” (70h), ISYEB, MNHN Paris  \newline
+- “Dessin scientifique en biologie marine” (35h), MNHN, Station marine de Concarneau  \newline
+- “Dessin scientifique” (96h), MNHN \newline
+- “Bonnes pratiques pour une recherche reproductible en écologie numérique” (35h), CESAB, FRB Montpellier  
 \end{adjustwidth}
 
 `2019-2021`
@@ -72,16 +73,15 @@ gs <- get_profile(id)
 ## Experiences professionnelles
 \sectionline
 
-
 `2022-present`
-**Thèse de doctorat - ED 227 : Sci. de l'Homme et de la Nature**. 
+**Thèse de doctorat - ED 227 : Sci. de l'Homme et de la Nature**, 
 "Communautés sessiles des mini-récifs artificiels (ARMS) sur les pentes externes des récifs coralliens des Mascareignes : comparaison entre milieux récifal peu profond et mésophotique", UMR BOrEA, MNHN, Paris
 
 `2022`
-**Auto-entrepreneuriat**. Prestation de service : Analyses du benthos via Coral Point Count, tri sur photos en morphoespèces et espèces, et traitement des données, MNHN et Université de La Réunion
+**Auto-entrepreneuriat**, Prestation de service : Analyses du benthos via Coral Point Count, tri sur photos en morphoespèces et espèces, et traitement des données, MNHN et Université de La Réunion
 
 `2021`
-**Stage de Master 2**. "Communautés sessiles des mini-récifs ARMS : patrons spatiaux et forçages environnementaux", Laboratoire ENTROPIE, Université de La Réunion
+**Stage de Master 2**, "Communautés sessiles des mini-récifs ARMS : patrons spatiaux et forçages environnementaux", Laboratoire ENTROPIE, Université de La Réunion
 
 `2020`
 **Stage de Master 1**, "Influence du nombre de locus dans l’analyse de la diversité génétique des holothuries vertes \textit{Stichopus chloronotus} à La Réunion", Laboratoire ENTROPIE, Université de La Réunion
@@ -93,7 +93,7 @@ gs <- get_profile(id)
 \sectionline
 
 `2020`
-**Association des naturalistes de Mayotte**, Comptages des pontes de tortues vertes \textit{Chelonia mydas} et réhabilitation de la végétation des plages de ponte à Saziley (bénévolat)*,  Parc Marin de Saziley
+**Association des naturalistes de Mayotte**, Comptages des pontes de tortues vertes \textit{Chelonia mydas} et réhabilitation de la végétation des plages de ponte à Saziley (bénévolat),  Parc Marin de Saziley
 
 `2019`
 **Ligue pour la Protection des Oiseaux**, Comptages des fous de Bassan \textit{Morus bassanus} à l’île Rouzic et saisie des données (bénévolat), Réserve Naturelle des Sept-Îles
