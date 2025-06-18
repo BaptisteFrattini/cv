@@ -9,6 +9,7 @@ header-includes:
   - \newcommand{\sectionline}{\vspace{-1.4em}\noindent\hrulefill\vspace{0.8em}}
 ---
 
+
 ```{r setup, include=FALSE}
 # Définir ta date de naissance
 dob <- as.Date("1998-01-18")
@@ -52,6 +53,8 @@ gs <- get_profile(id)
 `2022-present`
 **Formations doctorales**:
 \begin{adjustwidth}{2em}{0pt}
+- “Démultiplexage et assemblage des pools d'amplicons avec Geneious” (5h) - SSM, MNHN Paris \newline   
+- “Initiation à la biologie moléculaire” (14h) - SSM , MNHN Paris \newline
 - “Porifera taxonomic workshop - DeepSeaTax” (70h), ISYEB, MNHN Paris  \newline
 - “Dessin scientifique en biologie marine” (35h), MNHN, Station marine de Concarneau  \newline
 - “Dessin scientifique” (96h), MNHN \newline
@@ -104,37 +107,24 @@ gs <- get_profile(id)
 `2024`
 **Contrat d'enseignement vacataire**, Contrat de 32h de cours en Licence 2 Science de la vie, Université de La Réunion
 \begin{adjustwidth}{2em}{0pt}
-- UE Embryologie : Séances de travaux pratiques de 4h - Dissection d'un oeuf de poule \newline
-- UE Ecologie et Environnement : Travaux dirigés de 2h - Création d'un poster scientifique, Jeux sérieux sur les enjeux environnementaux de l'île de La Réunion \newline
-- Surveillance d'examens et corrections de copies
+- UE Embryologie : Séances de travaux pratiques \newline
+- UE Ecologie et Environnement : Séances de travaux dirigés \newline
 \end{adjustwidth}
 
 `2021-2022`
 **Enseignant contractuel**, Contrat de 16h d’enseignement en SVT par semaine en classes de 1ère et Terminale, Lycée Felix Le Dantec, Lannion
-\begin{adjustwidth}{2em}{0pt}
-- Conception de supports pédagogiques cohérents avec les objectifs de l’équipe enseignante \newline
-- Participation aux conseils de classes
-\end{adjustwidth}
 
 ## Encadrement
 \sectionline
 
 `2024`
 **Encadrement d'une étudiante en stage de Master 2 BioSciences**, Université de La Réunion
-\begin{adjustwidth}{2em}{0pt}
-- Aide au raisonnement scientifique et aux analyses multivariées sur R
-\end{adjustwidth}
 
 `2024`
 **Encadrement d'un étudiant en stage de Master 1 BEST**, Université de La Réunion
-\begin{adjustwidth}{2em}{0pt}
-- Aide à la rédaction, initiation à R, analyses uni- et multivariées \newline
-- Participation en tant que jury aux oraux de stage
-\end{adjustwidth}
 
 ## Productions scientifiques
 \sectionline
-
 ### Articles de journaux
 
 **Frattini B**, Bruggemann JH, Goberville E, Couëdel M, Bruggemann F, Guillaume MMM (2025) Seasonal colonisation and ecological succession shape coral reef sessile cryptobenthic communities in Autonomous Reef Monitoring Structures. *Scientific Reports*. In Press
